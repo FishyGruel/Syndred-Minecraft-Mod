@@ -1,15 +1,74 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "DeepslateSoulsteelOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_soulsteel_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/blockstates/deepslate_soulsteel_ore.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/deepslate_soulsteel_ore.json",
+          "src/main/resources/assets/syndred/models/block/deepslate_soulsteel_ore.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/deepslate_soulsteel_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/syndred/block/DeepslateSoulsteelOreBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/deepslate_soulsteel_ore.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/deepslate_soulsteel_ore.json",
+          "src/main/resources/assets/syndred/items/deepslate_soulsteel_ore.json",
+          "src/main/resources/assets/syndred/models/item/deepslate_soulsteel_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SyndredTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syndred_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RawSoulsteel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_soulsteel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/item/RawSoulsteelItem.java",
+          "src/main/resources/assets/syndred/items/raw_soulsteel.json",
+          "src/main/resources/assets/syndred/models/item/raw_soulsteel.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DeepslateSoulsteelOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:DeepslateSoulsteelOre"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.syndred.deepslate_soulsteel_ore": "Deepslate Soulsteel Ore",
+      "item_group.syndred.syndred_tab": "Syndred Tab",
+      "item.syndred.raw_soulsteel": "Raw Soulsteel"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/syndred/init/SyndredModBlocks.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
       "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/syndred/SyndredMod.java"
     ]
