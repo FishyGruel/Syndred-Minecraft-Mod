@@ -33,6 +33,12 @@ authors="The Syndred Team"
     side="BOTH"
 
 
+[[dependencies.syndred]]
+    modId="jei"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration
