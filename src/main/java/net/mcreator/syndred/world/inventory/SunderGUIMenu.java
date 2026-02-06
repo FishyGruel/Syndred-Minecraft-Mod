@@ -32,7 +32,7 @@ public class SunderGUIMenu extends AbstractContainerMenu implements SyndredModMe
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 14)
+			if (!this.containsKey(key) && this.size() >= 16)
 				return null;
 			return super.put(key, value);
 		}
@@ -239,7 +239,7 @@ public class SunderGUIMenu extends AbstractContainerMenu implements SyndredModMe
 				return false;
 			}
 		}));
-		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 142, 35) {
+		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 133, 35) {
 			private final int slot = 13;
 			private int x = SunderGUIMenu.this.x;
 			private int y = SunderGUIMenu.this.y;

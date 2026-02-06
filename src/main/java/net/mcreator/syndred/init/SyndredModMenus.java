@@ -16,6 +16,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.syndred.world.inventory.SunderGUIMenu;
 import net.mcreator.syndred.network.MenuStateUpdateMessage;
 import net.mcreator.syndred.SyndredMod;
 

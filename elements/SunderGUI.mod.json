@@ -211,8 +211,30 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 267,
+          "x": 258,
           "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_next_button",
+          "image": "next_button.png",
+          "hoveredImage": "next_button_highlighted.png",
+          "x": 240,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_back_button",
+          "image": "back_button.png",
+          "hoveredImage": "back_button_highlighted.png",
+          "x": 159,
+          "y": 89,
           "locked": false
         }
       }
