@@ -6,5 +6,10 @@
   "item.syndred.soulsteel_ore": "Deepslate Soulsteel Ore",
   "item.syndred.deepslate_sphalerite_ore": "Deepslate Soulsteel Ore",
   "item.syndred.sphalerite_ore": "Deepslate Soulsteel Ore",
-  "item.syndred.raw_sphalerite": "Raw Sphalerite"
+  "item.syndred.raw_sphalerite": "Raw Sphalerite",
+  "item.syndred.soulsteel_ingot": "Soulsteel Ingot",
+  "item.syndred.sphalerite_ingot": "Sphalerite Ingot",
+  "gui.syndred.anima_conflux_gui.label_anima_conflux": "Anima Conflux",
+  "painting.syndred.night_hunter_painting.title": "Night Hunter Painting",
+  "painting.syndred.night_hunter_painting.author": "FishyGruel"
 }

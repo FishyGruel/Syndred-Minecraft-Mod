@@ -24,5 +24,7 @@ public class SyndredModTabs {
 				tabData.accept(SyndredModBlocks.DEEPSLATE_SPHALERITE_ORE.get().asItem());
 				tabData.accept(SyndredModBlocks.SPHALERITE_ORE.get().asItem());
 				tabData.accept(SyndredModItems.RAW_SPHALERITE.get());
+				tabData.accept(SyndredModItems.SOULSTEEL_INGOT.get());
+				tabData.accept(SyndredModItems.SPHALERITE_INGOT.get());
 			}).build());
 }

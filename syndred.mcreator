@@ -156,6 +156,76 @@
         ]
       },
       "path": "~/GUIs"
+    },
+    {
+      "name": "SoulsteelIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/items/soulsteel_ingot.json",
+          "src/main/resources/assets/syndred/models/item/soulsteel_ingot.json",
+          "src/main/java/net/mcreator/syndred/item/SoulsteelIngotItem.java"
+        ]
+      },
+      "path": "~/Ores/Soulsteel"
+    },
+    {
+      "name": "SphaleriteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphalerite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/items/sphalerite_ingot.json",
+          "src/main/java/net/mcreator/syndred/item/SphaleriteIngotItem.java",
+          "src/main/resources/assets/syndred/models/item/sphalerite_ingot.json"
+        ]
+      },
+      "path": "~/Ores/Sphalerite"
+    },
+    {
+      "name": "AnimaConfluxGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anima_conflux_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/world/inventory/AnimaConfluxGUIMenu.java",
+          "src/main/java/net/mcreator/syndred/client/gui/AnimaConfluxGUIScreen.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "NightHunterPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_hunter_painting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/painting_variant/night_hunter_painting.json"
+        ]
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeezPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weez_painting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/painting_variant/weez_painting.json"
+        ]
+      },
+      "path": "~/Paintings"
     }
   ],
   "variable_elements": [],
@@ -177,6 +247,9 @@
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:SphaleriteOre",
       "~CUSTOM:DeepslateSphaleriteOre"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "~CUSTOM:SphaleriteIngot"
     ]
   },
   "tab_element_order": {},
@@ -189,7 +262,14 @@
       "item.syndred.soulsteel_ore": "Deepslate Soulsteel Ore",
       "item.syndred.deepslate_sphalerite_ore": "Deepslate Soulsteel Ore",
       "item.syndred.sphalerite_ore": "Deepslate Soulsteel Ore",
-      "item.syndred.raw_sphalerite": "Raw Sphalerite"
+      "item.syndred.raw_sphalerite": "Raw Sphalerite",
+      "item.syndred.soulsteel_ingot": "Soulsteel Ingot",
+      "item.syndred.sphalerite_ingot": "Sphalerite Ingot",
+      "gui.syndred.anima_conflux_gui.label_anima_conflux": "Anima Conflux",
+      "painting.syndred.night_hunter_painting.title": "Night Hunter Painting",
+      "painting.syndred.night_hunter_painting.author": "FishyGruel",
+      "painting.syndred.weez_painting.title": "Weez Painting",
+      "painting.syndred.weez_painting.author": "FishyGruel"
     }
   },
   "metadata": {
@@ -197,6 +277,7 @@
       "src/main/java/net/mcreator/syndred/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModScreens.java",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlocks.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlockEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
@@ -239,6 +320,10 @@
       },
       {
         "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Paintings",
         "children": []
       }
     ]

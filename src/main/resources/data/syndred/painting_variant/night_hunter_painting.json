@@ -1,0 +1,11 @@
+{
+  "asset_id": "syndred:night_hunter_painting",
+  "height": 2,
+  "width": 2,
+  "title": {
+    "translate": "painting.syndred.night_hunter_painting.title"
+  },
+  "author": {
+    "translate": "painting.syndred.night_hunter_painting.author"
+  }
+}

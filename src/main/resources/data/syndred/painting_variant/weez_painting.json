@@ -1,0 +1,11 @@
+{
+  "asset_id": "syndred:weez_painting",
+  "height": 1,
+  "width": 1,
+  "title": {
+    "translate": "painting.syndred.weez_painting.title"
+  },
+  "author": {
+    "translate": "painting.syndred.weez_painting.author"
+  }
+}
