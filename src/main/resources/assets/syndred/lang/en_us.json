@@ -11,5 +11,9 @@
   "item.syndred.sphalerite_ingot": "Sphalerite Ingot",
   "gui.syndred.anima_conflux_gui.label_anima_conflux": "Anima Conflux",
   "painting.syndred.night_hunter_painting.title": "Night Hunter Painting",
-  "painting.syndred.night_hunter_painting.author": "FishyGruel"
+  "painting.syndred.night_hunter_painting.author": "FishyGruel",
+  "painting.syndred.weez_painting.title": "Weez Painting",
+  "painting.syndred.weez_painting.author": "FishyGruel",
+  "item.syndred.raw_soulsteel_block": "Deepslate Soulsteel Ore",
+  "item.syndred.raw_sphalerite_block": "Deepslate Soulsteel Ore"
 }

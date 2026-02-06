@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "syndred:raw_soulsteel_block",
+  "step": "underground_ores"
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "syndred:raw_soulsteel_block",
     "syndred:deepslate_soulsteel_ore",
     "syndred:soulsteel_ore"
   ]

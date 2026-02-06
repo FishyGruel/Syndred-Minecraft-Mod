@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "sphalerite_ore",
+    "texture": "raw_sphalerite_block",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -60,7 +60,7 @@
     "customDrop": {
       "value": "CUSTOM:RawSphalerite"
     },
-    "dropAmount": 1,
+    "dropAmount": 3,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
@@ -147,11 +147,17 @@
       },
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.COBBLED_DEEPSLATE"
+      },
+      {
+        "value": "Blocks.DEEPSLATE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 18,
-    "frequencyOnChunk": 10,
+    "frequencyPerChunks": 9,
+    "frequencyOnChunk": 2,
     "minGenerateHeight": -16,
     "maxGenerateHeight": 128
   }

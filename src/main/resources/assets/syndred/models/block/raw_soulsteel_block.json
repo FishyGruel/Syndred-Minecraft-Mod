@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "syndred:block/raw_soulsteel_block",
+    "particle": "syndred:block/raw_soulsteel_block"
+  },
+  "render_type": "solid"
+}

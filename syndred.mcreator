@@ -226,18 +226,130 @@
         ]
       },
       "path": "~/Paintings"
+    },
+    {
+      "name": "PigliNotGoldProc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pigli_not_gold_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/syndred/procedures/PigliNotGoldProcProcedure.java"
+        ]
+      },
+      "path": "~/Ores/Sphalerite"
+    },
+    {
+      "name": "SmeltRawSphalerite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_raw_sphalerite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/smelt_raw_sphalerite.json",
+          "src/main/resources/data/syndred/recipe/smelt_raw_sphalerite.json"
+        ]
+      },
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "SmeltRawSoulsteel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_raw_soulsteel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/smelt_raw_soulsteel.json",
+          "src/main/resources/data/syndred/advancement/recipes/smelt_raw_soulsteel.json"
+        ]
+      },
+      "path": "~/Recipes/Smelting"
+    },
+    {
+      "name": "RawSoulsteelBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_soulsteel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/items/raw_soulsteel_block.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/raw_soulsteel_block_biome_modifier.json",
+          "src/main/resources/assets/syndred/models/block/raw_soulsteel_block.json",
+          "src/main/resources/assets/syndred/models/item/raw_soulsteel_block.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/raw_soulsteel_block.json",
+          "src/main/resources/data/syndred/loot_table/blocks/raw_soulsteel_block.json",
+          "src/main/resources/assets/syndred/blockstates/raw_soulsteel_block.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/raw_soulsteel_block.json",
+          "src/main/java/net/mcreator/syndred/block/RawSoulsteelBlockBlock.java"
+        ]
+      },
+      "path": "~/Ores/Soulsteel"
+    },
+    {
+      "name": "RawSphaleriteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_sphalerite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/worldgen/placed_feature/raw_sphalerite_block.json",
+          "src/main/java/net/mcreator/syndred/block/RawSphaleriteBlockBlock.java",
+          "src/main/resources/data/syndred/worldgen/configured_feature/raw_sphalerite_block.json",
+          "src/main/resources/assets/syndred/items/raw_sphalerite_block.json",
+          "src/main/resources/assets/syndred/models/item/raw_sphalerite_block.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/raw_sphalerite_block_biome_modifier.json",
+          "src/main/resources/data/syndred/loot_table/blocks/raw_sphalerite_block.json",
+          "src/main/resources/assets/syndred/models/block/raw_sphalerite_block.json",
+          "src/main/resources/assets/syndred/blockstates/raw_sphalerite_block.json"
+        ]
+      },
+      "path": "~/Ores/Sphalerite"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:RawSphaleriteBlock",
+      "~CUSTOM:RawSoulsteelBlock",
       "~CUSTOM:SphaleriteOre",
       "~CUSTOM:DeepslateSphaleriteOre",
       "~CUSTOM:SoulsteelOre",
       "~CUSTOM:DeepslateSoulsteelOre"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:RawSoulsteelBlock",
       "~CUSTOM:SoulsteelOre",
       "~CUSTOM:DeepslateSoulsteelOre"
     ],
@@ -245,6 +357,7 @@
       "~CUSTOM:AnimaConflux"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:RawSphaleriteBlock",
       "~CUSTOM:SphaleriteOre",
       "~CUSTOM:DeepslateSphaleriteOre"
     ],
@@ -269,7 +382,9 @@
       "painting.syndred.night_hunter_painting.title": "Night Hunter Painting",
       "painting.syndred.night_hunter_painting.author": "FishyGruel",
       "painting.syndred.weez_painting.title": "Weez Painting",
-      "painting.syndred.weez_painting.author": "FishyGruel"
+      "painting.syndred.weez_painting.author": "FishyGruel",
+      "item.syndred.raw_soulsteel_block": "Deepslate Soulsteel Ore",
+      "item.syndred.raw_sphalerite_block": "Deepslate Soulsteel Ore"
     }
   },
   "metadata": {
@@ -278,6 +393,7 @@
       "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModScreens.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/syndred/init/SyndredModBrewingRecipes.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlocks.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlockEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
@@ -325,6 +441,19 @@
       {
         "name": "Paintings",
         "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": [
+          {
+            "name": "Crafting",
+            "children": []
+          },
+          {
+            "name": "Smelting",
+            "children": []
+          }
+        ]
       }
     ]
   },

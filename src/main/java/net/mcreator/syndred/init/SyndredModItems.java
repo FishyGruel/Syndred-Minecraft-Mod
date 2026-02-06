@@ -30,6 +30,8 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> RAW_SPHALERITE;
 	public static final DeferredItem<Item> SOULSTEEL_INGOT;
 	public static final DeferredItem<Item> SPHALERITE_INGOT;
+	public static final DeferredItem<Item> RAW_SOULSTEEL_BLOCK;
+	public static final DeferredItem<Item> RAW_SPHALERITE_BLOCK;
 	static {
 		DEEPSLATE_SOULSTEEL_ORE = block(SyndredModBlocks.DEEPSLATE_SOULSTEEL_ORE);
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
@@ -40,6 +42,8 @@ public class SyndredModItems {
 		RAW_SPHALERITE = register("raw_sphalerite", RawSphaleriteItem::new);
 		SOULSTEEL_INGOT = register("soulsteel_ingot", SoulsteelIngotItem::new);
 		SPHALERITE_INGOT = register("sphalerite_ingot", SphaleriteIngotItem::new);
+		RAW_SOULSTEEL_BLOCK = block(SyndredModBlocks.RAW_SOULSTEEL_BLOCK);
+		RAW_SPHALERITE_BLOCK = block(SyndredModBlocks.RAW_SPHALERITE_BLOCK);
 	}
 
 	// Start of user code block custom items

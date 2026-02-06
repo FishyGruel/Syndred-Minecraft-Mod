@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "syndred:blocks/raw_sphalerite_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "syndred:raw_sphalerite",
+          "functions": [
+            {
+              "count": 3,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

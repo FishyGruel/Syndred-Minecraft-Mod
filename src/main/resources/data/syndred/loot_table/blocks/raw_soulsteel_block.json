@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "syndred:blocks/raw_soulsteel_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "syndred:raw_soulsteel",
+          "functions": [
+            {
+              "count": 3,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
