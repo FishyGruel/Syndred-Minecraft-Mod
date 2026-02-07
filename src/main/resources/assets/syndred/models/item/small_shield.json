@@ -1,0 +1,7 @@
+{
+  "parent": "syndred:custom/small_shield",
+  "textures": {
+    "1": "syndred:block/small_shield",
+    "particle": "syndred:item/shieldsmall"
+  }
+}

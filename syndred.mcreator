@@ -661,6 +661,21 @@
           "src/main/resources/assets/syndred/items/horn_lance.json"
         ]
       }
+    },
+    {
+      "name": "SmallShield",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_shield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/small_shield.json",
+          "src/main/resources/assets/syndred/items/small_shield.json",
+          "src/main/java/net/mcreator/syndred/item/SmallShieldItem.java",
+          "src/main/resources/assets/syndred/models/item/small_shield_gui.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -760,7 +775,8 @@
       "item.syndred.sphalerite_block": "Soulsteel Block",
       "entity.syndred.charger": "Charger",
       "item.syndred.charger_spawn_egg": "Charger Spawn Egg",
-      "item.syndred.horn_lance": "Horn Lance"
+      "item.syndred.horn_lance": "Horn Lance",
+      "item.syndred.small_shield": "Small Shield"
     }
   },
   "metadata": {
