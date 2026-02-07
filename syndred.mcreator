@@ -646,7 +646,8 @@
           "src/main/resources/assets/syndred/items/charger_spawn_egg.json",
           "src/main/java/net/mcreator/syndred/client/renderer/ChargerRenderer.java"
         ]
-      }
+      },
+      "path": "~/Entities"
     },
     {
       "name": "HornLance",
@@ -661,7 +662,8 @@
           "src/main/resources/assets/syndred/items/horn_lance.json",
           "src/main/resources/assets/syndred/models/item/horn_lance.json"
         ]
-      }
+      },
+      "path": "~/Items/Weapons"
     },
     {
       "name": "AnimaConfluxProgrState0",
@@ -1155,6 +1157,10 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Entities",
+        "children": []
       }
     ]
   },
