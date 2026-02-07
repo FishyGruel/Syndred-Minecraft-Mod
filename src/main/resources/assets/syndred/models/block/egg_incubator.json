@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "syndred:block/soulguard_bottom",
+    "up": "syndred:block/egg_incubator_main",
+    "north": "syndred:block/egg_incubator_side",
+    "east": "syndred:block/egg_incubator_side",
+    "south": "syndred:block/egg_incubator_side",
+    "west": "syndred:block/egg_incubator_side",
+    "particle": "syndred:block/soulguard_bottom"
+  },
+  "render_type": "cutout_mipped"
+}
