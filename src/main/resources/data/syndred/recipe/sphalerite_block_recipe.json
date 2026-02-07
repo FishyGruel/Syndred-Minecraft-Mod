@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "syndred:sphalerite_ingot",
+    "syndred:sphalerite_ingot",
+    "syndred:sphalerite_ingot",
+    "syndred:sphalerite_ingot",
+    "syndred:sphalerite_ingot",
+    "syndred:sphalerite_ingot",
+    "syndred:sphalerite_ingot",
+    "syndred:sphalerite_ingot",
+    "syndred:sphalerite_ingot"
+  ],
+  "result": {
+    "id": "syndred:sphalerite_block",
+    "count": 1
+  }
+}

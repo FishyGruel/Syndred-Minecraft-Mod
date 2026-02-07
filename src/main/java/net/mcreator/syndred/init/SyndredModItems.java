@@ -39,6 +39,7 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> DRY_STONE;
 	public static final DeferredItem<Item> HARSH_STONE;
 	public static final DeferredItem<Item> SOULSTEEL_BLOCK;
+	public static final DeferredItem<Item> SPHALERITE_BLOCK;
 	static {
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
@@ -61,6 +62,7 @@ public class SyndredModItems {
 		DRY_STONE = block(SyndredModBlocks.DRY_STONE);
 		HARSH_STONE = block(SyndredModBlocks.HARSH_STONE);
 		SOULSTEEL_BLOCK = block(SyndredModBlocks.SOULSTEEL_BLOCK);
+		SPHALERITE_BLOCK = block(SyndredModBlocks.SPHALERITE_BLOCK);
 	}
 
 	// Start of user code block custom items

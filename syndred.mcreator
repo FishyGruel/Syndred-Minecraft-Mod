@@ -527,7 +527,7 @@
           "src/main/resources/data/syndred/recipe/soulsteel_block_recipe.json"
         ]
       },
-      "path": "~/Recipes/Crafting"
+      "path": "~/Recipes/Crafting/Soulsteel Stuff"
     },
     {
       "name": "SoulsteelIngotRecipeFromBlock",
@@ -541,13 +541,102 @@
           "src/main/resources/data/syndred/advancement/recipes/soulsteel_ingot_recipe_from_block.json"
         ]
       },
-      "path": "~/Recipes/Crafting"
+      "path": "~/Recipes/Crafting/Soulsteel Stuff"
+    },
+    {
+      "name": "SphaleriteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphalerite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/loot_table/blocks/sphalerite_block.json",
+          "src/main/java/net/mcreator/syndred/block/SphaleriteBlockBlock.java",
+          "src/main/resources/assets/syndred/items/sphalerite_block.json",
+          "src/main/resources/assets/syndred/models/item/sphalerite_block.json",
+          "src/main/resources/assets/syndred/blockstates/sphalerite_block.json",
+          "src/main/resources/assets/syndred/models/block/sphalerite_block.json"
+        ]
+      },
+      "path": "~/Blocks/Block Versions"
+    },
+    {
+      "name": "SphaleriteBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphalerite_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/sphalerite_block_recipe.json",
+          "src/main/resources/data/syndred/recipe/sphalerite_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Sphalerite Stuff"
+    },
+    {
+      "name": "SphaleriteIngotRecipeFromBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphalerite_ingot_recipe_from_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/sphalerite_ingot_recipe_from_block.json",
+          "src/main/resources/data/syndred/advancement/recipes/sphalerite_ingot_recipe_from_block.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Sphalerite Stuff"
+    },
+    {
+      "name": "SoulsteelPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/soulsteel_pickaxe_recipe.json",
+          "src/main/resources/data/syndred/recipe/soulsteel_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Soulsteel Stuff"
+    },
+    {
+      "name": "SoulsteelAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/soulsteel_axe_recipe.json",
+          "src/main/resources/data/syndred/recipe/soulsteel_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Soulsteel Stuff"
+    },
+    {
+      "name": "SoulsteelAxeRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_axe_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/soulsteel_axe_recipe_2.json",
+          "src/main/resources/data/syndred/advancement/recipes/soulsteel_axe_recipe_2.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Soulsteel Stuff"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SphaleriteBlock",
       "~CUSTOM:SoulsteelBlock",
       "~CUSTOM:HarshStone",
       "~CUSTOM:DryStone",
@@ -635,7 +724,8 @@
       "item.syndred.soulsteel_hoe": "Soulsteel Pickaxe",
       "item.syndred.dry_stone": "Dry Stone",
       "item.syndred.harsh_stone": "Dry Stone",
-      "item.syndred.soulsteel_block": "Soulsteel Block"
+      "item.syndred.soulsteel_block": "Soulsteel Block",
+      "item.syndred.sphalerite_block": "Soulsteel Block"
     }
   },
   "metadata": {
@@ -709,7 +799,16 @@
         "children": [
           {
             "name": "Crafting",
-            "children": []
+            "children": [
+              {
+                "name": "Soulsteel Stuff",
+                "children": []
+              },
+              {
+                "name": "Sphalerite Stuff",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Smelting",
@@ -745,6 +844,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Procedures",
+        "children": []
       }
     ]
   },

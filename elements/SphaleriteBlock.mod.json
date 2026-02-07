@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "soulsteel_block",
+    "texture": "sphalerite_block",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -43,8 +43,8 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 5.0,
-    "resistance": 11.0,
+    "hardness": 3.5,
+    "resistance": 4.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,

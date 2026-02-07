@@ -31,7 +31,7 @@ public class AnimaConfluxJEITypeRecipeCategory implements IRecipeCategory<AnimaC
 	private final Minecraft mc = Minecraft.getInstance();
 
 	public AnimaConfluxJEITypeRecipeCategory(IGuiHelper helper) {
-		this.background = helper.createDrawable(TEXTURE, 0, 0, 200, 0);
+		this.background = helper.createDrawable(TEXTURE, 0, 0, 200, 133);
 		this.icon = helper.createDrawableIngredient(VanillaTypes.ITEM_STACK, new ItemStack(SyndredModBlocks.ANIMA_CONFLUX.get().asItem()));
 	}
 

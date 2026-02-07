@@ -40,6 +40,8 @@ public class SyndredModTabs {
 				tabData.accept(SyndredModItems.SOULSTEEL_AXE.get());
 				tabData.accept(SyndredModItems.SOULSTEEL_SPADE.get());
 				tabData.accept(SyndredModItems.SOULSTEEL_HOE.get());
+				tabData.accept(SyndredModBlocks.SOULSTEEL_BLOCK.get().asItem());
+				tabData.accept(SyndredModBlocks.SPHALERITE_BLOCK.get().asItem());
 			}).build());
 
 	@SubscribeEvent

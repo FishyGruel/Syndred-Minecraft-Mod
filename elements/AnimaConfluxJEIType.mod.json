@@ -4,7 +4,7 @@
   "definition": {
     "textureSelector": "anima_conflux_jei_bg.png",
     "width": 200,
-    "height": 0,
+    "height": 133,
     "icon": {
       "value": "CUSTOM:AnimaConflux"
     },
