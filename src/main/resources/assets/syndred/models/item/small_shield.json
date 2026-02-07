@@ -1,7 +1,10 @@
 {
-  "parent": "syndred:custom/small_shield",
+  "forge_marker": 1,
+  "parent": "neoforge:item/default",
+  "loader": "neoforge:obj",
+  "model": "syndred:models/item/small_shield.obj",
   "textures": {
-    "1": "syndred:block/small_shield",
+    "m_ca4320fc-aad7-4cdf-ca15-173a1faa6baa": "syndred:block/",
     "particle": "syndred:item/shieldsmall"
   }
 }

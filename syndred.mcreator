@@ -782,10 +782,10 @@
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/syndred/network/MenuStateUpdateMessage.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModScreens.java",
-      "src/main/java/net/mcreator/syndred/jei_recipes/EmptyIngredient.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModJeiPlugin.java",
+      "src/main/java/net/mcreator/syndred/jei_recipes/EmptyIngredient.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModRecipeTypes.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/syndred/init/SyndredModBrewingRecipes.java",
@@ -797,6 +797,7 @@
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/syndred/init/SyndredModModels.java",
       "src/main/java/net/mcreator/syndred/SyndredMod.java"
     ]

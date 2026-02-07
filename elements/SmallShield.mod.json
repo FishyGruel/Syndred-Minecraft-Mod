@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "item",
   "definition": {
-    "renderType": 1,
+    "renderType": 2,
     "texture": "shieldsmall",
     "customModelName": "small_shield:default",
     "guiTexture": "shieldsmall",
