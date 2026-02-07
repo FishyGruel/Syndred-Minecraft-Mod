@@ -154,7 +154,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/syndred/world/inventory/AnimaConfluxGUIMenu.java",
-          "src/main/java/net/mcreator/syndred/client/gui/AnimaConfluxGUIScreen.java"
+          "src/main/java/net/mcreator/syndred/client/gui/AnimaConfluxGUIScreen.java",
+          "src/main/java/net/mcreator/syndred/network/AnimaConfluxGUISlotMessage.java"
         ]
       },
       "path": "~/GUIs"
@@ -852,6 +853,56 @@
         ]
       },
       "path": "~/Blocks/Functional/Anima Conflux"
+    },
+    {
+      "name": "EggIncubator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egg_incubator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/blockstates/egg_incubator.json",
+          "src/main/resources/assets/syndred/models/block/egg_incubator.json",
+          "src/main/resources/assets/syndred/models/item/egg_incubator.json",
+          "src/main/resources/assets/syndred/items/egg_incubator.json",
+          "src/main/java/net/mcreator/syndred/block/entity/EggIncubatorBlockEntity.java",
+          "src/main/resources/data/syndred/loot_table/blocks/egg_incubator.json",
+          "src/main/java/net/mcreator/syndred/block/EggIncubatorBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Functional/Egg Incubator"
+    },
+    {
+      "name": "OnAnimaConfluxRecipeResultPick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_anima_conflux_recipe_result_pick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/syndred/procedures/OnAnimaConfluxRecipeResultPickProcedure.java"
+        ]
+      },
+      "path": "~/Procedures/GUIs/Anima Conflux/Take"
     }
   ],
   "variable_elements": [],
@@ -951,7 +1002,8 @@
       "item.syndred.sphalerite_block": "Soulsteel Block",
       "entity.syndred.charger": "Charger",
       "item.syndred.charger_spawn_egg": "Charger Spawn Egg",
-      "item.syndred.horn_lance": "Horn Lance"
+      "item.syndred.horn_lance": "Horn Lance",
+      "item.syndred.egg_incubator": "Egg Incubator"
     }
   },
   "metadata": {
@@ -1000,6 +1052,10 @@
             "children": [
               {
                 "name": "Anima Conflux",
+                "children": []
+              },
+              {
+                "name": "Egg Incubator",
                 "children": []
               }
             ]
@@ -1088,6 +1144,10 @@
                 "children": [
                   {
                     "name": "Progress Bar",
+                    "children": []
+                  },
+                  {
+                    "name": "Take",
                     "children": []
                   }
                 ]
