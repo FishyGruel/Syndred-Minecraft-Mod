@@ -26,5 +26,8 @@
   "item.syndred.dry_stone": "Dry Stone",
   "item.syndred.harsh_stone": "Dry Stone",
   "item.syndred.soulsteel_block": "Soulsteel Block",
-  "item.syndred.sphalerite_block": "Soulsteel Block"
+  "item.syndred.sphalerite_block": "Soulsteel Block",
+  "entity.syndred.charger": "Charger",
+  "item.syndred.charger_spawn_egg": "Charger Spawn Egg",
+  "item.syndred.horn_lance": "Horn Lance"
 }

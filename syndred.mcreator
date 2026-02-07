@@ -630,6 +630,37 @@
         ]
       },
       "path": "~/Recipes/Crafting/Soulsteel Stuff"
+    },
+    {
+      "name": "Charger",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/items/charger_spawn_egg.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/charger_biome_modifier.json",
+          "src/main/java/net/mcreator/syndred/client/renderer/ChargerRenderer.java",
+          "src/main/resources/assets/syndred/models/item/charger_spawn_egg.json",
+          "src/main/java/net/mcreator/syndred/entity/ChargerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "HornLance",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horn_lance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/item/HornLanceItem.java",
+          "src/main/resources/assets/syndred/models/item/horn_lance_gui.json",
+          "src/main/resources/assets/syndred/models/item/horn_lance.json",
+          "src/main/resources/assets/syndred/items/horn_lance.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -665,6 +696,7 @@
       "~CUSTOM:SphaleriteIngot"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:HornLance",
       "~CUSTOM:SoulsteelSword"
     ],
     "ITEMS:minecraft:pickaxes": [
@@ -725,7 +757,10 @@
       "item.syndred.dry_stone": "Dry Stone",
       "item.syndred.harsh_stone": "Dry Stone",
       "item.syndred.soulsteel_block": "Soulsteel Block",
-      "item.syndred.sphalerite_block": "Soulsteel Block"
+      "item.syndred.sphalerite_block": "Soulsteel Block",
+      "entity.syndred.charger": "Charger",
+      "item.syndred.charger_spawn_egg": "Charger Spawn Egg",
+      "item.syndred.horn_lance": "Horn Lance"
     }
   },
   "metadata": {
@@ -741,6 +776,8 @@
       "src/main/java/net/mcreator/syndred/init/SyndredModBlocks.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlockEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModEntities.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModEntityRenderers.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta",

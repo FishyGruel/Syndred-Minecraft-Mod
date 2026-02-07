@@ -8,6 +8,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
@@ -40,6 +41,8 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> HARSH_STONE;
 	public static final DeferredItem<Item> SOULSTEEL_BLOCK;
 	public static final DeferredItem<Item> SPHALERITE_BLOCK;
+	public static final DeferredItem<Item> CHARGER_SPAWN_EGG;
+	public static final DeferredItem<Item> HORN_LANCE;
 	static {
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
@@ -63,6 +66,8 @@ public class SyndredModItems {
 		HARSH_STONE = block(SyndredModBlocks.HARSH_STONE);
 		SOULSTEEL_BLOCK = block(SyndredModBlocks.SOULSTEEL_BLOCK);
 		SPHALERITE_BLOCK = block(SyndredModBlocks.SPHALERITE_BLOCK);
+		CHARGER_SPAWN_EGG = register("charger_spawn_egg", properties -> new SpawnEggItem(SyndredModEntities.CHARGER.get(), properties));
+		HORN_LANCE = register("horn_lance", HornLanceItem::new);
 	}
 
 	// Start of user code block custom items

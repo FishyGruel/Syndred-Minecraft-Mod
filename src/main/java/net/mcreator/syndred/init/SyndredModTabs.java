@@ -48,11 +48,14 @@ public class SyndredModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(SyndredModItems.SOULSTEEL_SWORD.get());
+			tabData.accept(SyndredModItems.HORN_LANCE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(SyndredModItems.SOULSTEEL_PICKAXE.get());
 			tabData.accept(SyndredModItems.SOULSTEEL_AXE.get());
 			tabData.accept(SyndredModItems.SOULSTEEL_SPADE.get());
 			tabData.accept(SyndredModItems.SOULSTEEL_HOE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(SyndredModItems.CHARGER_SPAWN_EGG.get());
 		}
 	}
 }
