@@ -1263,6 +1263,20 @@
         ]
       },
       "path": "~/GUIs"
+    },
+    {
+      "name": "Ineedsleep",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ineedsleep",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/item/IneedsleepItem.java",
+          "src/main/resources/assets/syndred/items/ineedsleep.json",
+          "src/main/resources/assets/syndred/models/item/ineedsleep.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1425,7 +1439,8 @@
       "item.syndred.leather_soulsteel_boots": "Leather Soulsteel Boots",
       "item.syndred.leather_soulsteel_leggings": "Leather Soulsteel Leggings",
       "item.syndred.leather_soulsteel_chestplate": "Leather Soulsteel Chestplate",
-      "item.syndred.leather_soulsteel_helmet": "Leather Soulsteel Helmet"
+      "item.syndred.leather_soulsteel_helmet": "Leather Soulsteel Helmet",
+      "item.syndred.ineedsleep": "Ineedsleep"
     }
   },
   "metadata": {

@@ -2,7 +2,7 @@
 # cd /home/nekoniyah/MCreatorWorkspaces/syndred/
 
 BRANCH="master"
-git pull --no-rebase origin main
+git pull --no-rebase origin master
 
 git add -A
 git commit -m "Auto-sync: $(date +'%Y-%m-%d %H:%M:%S')"

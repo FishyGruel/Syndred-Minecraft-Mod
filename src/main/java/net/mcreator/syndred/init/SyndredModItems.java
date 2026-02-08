@@ -59,6 +59,7 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> LEATHER_SOULSTEEL_CHESTPLATE;
 	public static final DeferredItem<Item> LEATHER_SOULSTEEL_LEGGINGS;
 	public static final DeferredItem<Item> LEATHER_SOULSTEEL_BOOTS;
+	public static final DeferredItem<Item> INEEDSLEEP;
 	static {
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
@@ -100,6 +101,7 @@ public class SyndredModItems {
 		LEATHER_SOULSTEEL_CHESTPLATE = register("leather_soulsteel_chestplate", LeatherSoulsteelItem.Chestplate::new);
 		LEATHER_SOULSTEEL_LEGGINGS = register("leather_soulsteel_leggings", LeatherSoulsteelItem.Leggings::new);
 		LEATHER_SOULSTEEL_BOOTS = register("leather_soulsteel_boots", LeatherSoulsteelItem.Boots::new);
+		INEEDSLEEP = register("ineedsleep", IneedsleepItem::new);
 	}
 
 	// Start of user code block custom items
