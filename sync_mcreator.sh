@@ -6,5 +6,11 @@ BRANCH="master"
 git fetch origin master
 git add -A
 git commit -m "Auto-sync: $(date +'%Y-%m-%d %H:%M:%S')"
-git pull origin $BRANCH
-git push origin $BRANCH
+
+git merge
+git rebase
+
+git add -A
+git commit -m "Auto-sync: $(date +'%Y-%m-%d %H:%M:%S')"
+
+git push origin master
