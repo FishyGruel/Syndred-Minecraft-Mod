@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "syndred:block/stripped_soulshire_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "syndred:block/stripped_soulshire_wood"
+    },
+    "axis=z": {
+      "model": "syndred:block/stripped_soulshire_wood",
+      "x": 90
+    }
+  }
+}

@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "syndred:anima_conflux"
+    "syndred:stripped_soulshire_wood",
+    "syndred:anima_conflux",
+    "syndred:soulshire_wood",
+    "syndred:stripped_soulshire_log",
+    "syndred:soulshire_log"
   ]
 }

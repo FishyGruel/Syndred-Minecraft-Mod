@@ -20,6 +20,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.syndred.world.features.StructureFeature;
 import net.mcreator.syndred.init.*;
 
 import javax.annotation.Nullable;
@@ -50,6 +51,7 @@ public class SyndredMod {
 		SyndredModItems.REGISTRY.register(modEventBus);
 		SyndredModEntities.REGISTRY.register(modEventBus);
 		SyndredModTabs.REGISTRY.register(modEventBus);
+		StructureFeature.REGISTRY.register(modEventBus);
 		SyndredModMenus.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init

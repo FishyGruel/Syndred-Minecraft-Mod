@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "syndred:block/soulshire_leaves",
+    "particle": "syndred:block/soulshire_leaves"
+  }
+}

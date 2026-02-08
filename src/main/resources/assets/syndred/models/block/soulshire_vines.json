@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "syndred:block/soulshire_vines_plant",
+    "particle": "syndred:block/soulshire_vines_plant"
+  },
+  "render_type": "cutout"
+}

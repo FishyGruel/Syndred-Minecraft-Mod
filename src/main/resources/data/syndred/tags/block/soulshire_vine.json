@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "syndred:soulshire_vines_fruiting",
+    "syndred:soulshire_vines",
+    "syndred:soulshire_vines_end",
+    "syndred:soulshire_vines_end_fruiting"
+  ]
+}

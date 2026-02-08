@@ -1,0 +1,104 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": {
+        "type": "minecraft:no_op",
+        "config": {}
+      },
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": {
+            "type": "syndred:structure_feature",
+            "config": {
+              "structure": "syndred:soulshiretree01",
+              "random_rotation": true,
+              "random_mirror": true,
+              "ignored_blocks": "minecraft:air"
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": {
+            "type": "syndred:structure_feature",
+            "config": {
+              "structure": "syndred:soulshiretree02",
+              "random_rotation": true,
+              "random_mirror": true,
+              "ignored_blocks": "minecraft:air"
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": {
+            "type": "syndred:structure_feature",
+            "config": {
+              "structure": "syndred:soulshiretree03",
+              "random_rotation": true,
+              "random_mirror": true,
+              "ignored_blocks": "minecraft:air"
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": {
+            "type": "syndred:structure_feature",
+            "config": {
+              "structure": "syndred:soulshiretree04",
+              "random_rotation": true,
+              "random_mirror": true,
+              "ignored_blocks": "minecraft:air"
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.7,
+        "feature": {
+          "feature": {
+            "type": "syndred:structure_feature",
+            "config": {
+              "structure": "syndred:soulshiretree05",
+              "random_rotation": true,
+              "random_mirror": true,
+              "ignored_blocks": "minecraft:air"
+            }
+          },
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": {
+            "type": "syndred:structure_feature",
+            "config": {
+              "structure": "syndred:soulshiretree06",
+              "random_rotation": true,
+              "random_mirror": true,
+              "ignored_blocks": "minecraft:air"
+            }
+          },
+          "placement": []
+        }
+      }
+    ]
+  }
+}

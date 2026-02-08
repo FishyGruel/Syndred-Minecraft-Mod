@@ -2,15 +2,15 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "sphalerite_block",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
-    "rotationMode": 0,
+    "texture": "stripped_soulshire_log_side",
+    "textureTop": "stripped_soulshire_log_side",
+    "textureLeft": "stripped_soulshire_log_side",
+    "textureFront": "stripped_soulshire_log_side",
+    "textureRight": "stripped_soulshire_log_side",
+    "textureBack": "stripped_soulshire_log_side",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -39,11 +39,11 @@
       }
     ],
     "customProperties": [],
-    "name": "Spalerite Block",
+    "name": "Stripped Soulshire Wood",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.5,
+    "hardness": 2.3,
     "resistance": 4.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -54,9 +54,12 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:SyndredTab"
+      },
+      {
+        "value": "DECORATIONS"
       }
     ],
-    "destroyTool": "pickaxe",
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },
@@ -76,8 +79,8 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
-    "noteBlockInstrument": "harp",
+    "colorOnMap": "PURPLE_TERRACOTTA",
+    "noteBlockInstrument": "bass",
     "creativePickItem": {
       "value": ""
     },
@@ -86,9 +89,9 @@
     "strippingResult": {
       "value": ""
     },
-    "ignitedByLava": false,
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
+    "ignitedByLava": true,
+    "flammability": 5,
+    "fireSpreadSpeed": 5,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
@@ -97,7 +100,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""
@@ -116,7 +119,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "IRON",
+    "vanillaToolTier": "STONE",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],

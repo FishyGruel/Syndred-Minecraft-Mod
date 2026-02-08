@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "syndred:block/stripped_soulshire_log_side",
+    "up": "syndred:block/stripped_soulshire_log_side",
+    "north": "syndred:block/stripped_soulshire_log_side",
+    "east": "syndred:block/stripped_soulshire_log_side",
+    "south": "syndred:block/stripped_soulshire_log_side",
+    "west": "syndred:block/stripped_soulshire_log_side",
+    "particle": "syndred:block/stripped_soulshire_log_side"
+  },
+  "render_type": "solid"
+}

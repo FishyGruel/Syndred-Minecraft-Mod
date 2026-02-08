@@ -2,20 +2,20 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "sphalerite_block",
+    "texture": "soulshire_vines_plant",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 12,
+    "customModelName": "Cross model",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "",
+    "itemTexture": "tamaberry",
     "particleTexture": "",
     "blockSetType": "OAK",
     "pottedPlant": {
@@ -23,81 +23,77 @@
     },
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
+        "mx": 1.0,
         "my": 0.0,
-        "mz": 0.0,
-        "Mx": 16.0,
+        "mz": 1.0,
+        "Mx": 14.0,
         "My": 16.0,
-        "Mz": 16.0,
+        "Mz": 14.0,
         "subtract": false
       }
     ],
     "customProperties": [],
-    "name": "Spalerite Block",
+    "name": "Soulshire Vines",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.5,
-    "resistance": 4.0,
+    "hardness": 0.2,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:SyndredTab"
-      }
-    ],
-    "destroyTool": "pickaxe",
+    "creativeTabs": [],
+    "destroyTool": "hoe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:SoulShireFruit"
     },
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
-    "tickRate": 0,
-    "tickRandomly": false,
+    "lightOpacity": 0,
+    "tickRate": 2,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "NETHERRACK",
     "noteBlockInstrument": "harp",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:SoulShireFruit"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "strippingResult": {
       "value": ""
     },
-    "ignitedByLava": false,
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
-    "isLadder": false,
+    "ignitedByLava": true,
+    "flammability": 100,
+    "fireSpreadSpeed": 15,
+    "isLadder": true,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "VINE"
     },
     "breakSound": {
       "value": ""
@@ -116,7 +112,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "IRON",
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],
@@ -139,6 +135,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "SoulshireVinesOnTickUpdate"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "sphalerite_block",
+    "texture": "soulshire_leaves",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -17,13 +17,14 @@
     "animations": [],
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Leaves",
     "blockSetType": "OAK",
     "pottedPlant": {
       "value": ""
     },
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -39,12 +40,12 @@
       }
     ],
     "customProperties": [],
-    "name": "Spalerite Block",
+    "name": "Soulshire Leaves",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.5,
-    "resistance": 4.0,
+    "hardness": 0.2,
+    "resistance": 0.2,
     "hasGravity": false,
     "isWaterloggable": false,
     "hasBlockItem": true,
@@ -54,9 +55,12 @@
     "creativeTabs": [
       {
         "value": "CUSTOM:SyndredTab"
+      },
+      {
+        "value": "DECORATIONS"
       }
     ],
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -68,7 +72,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 1,
     "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
@@ -76,7 +80,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "RED",
     "noteBlockInstrument": "harp",
     "creativePickItem": {
       "value": ""
@@ -86,18 +90,18 @@
     "strippingResult": {
       "value": ""
     },
-    "ignitedByLava": false,
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
+    "ignitedByLava": true,
+    "flammability": 60,
+    "fireSpreadSpeed": 30,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "NORMAL",
+    "reactionToPushing": "DESTROY",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "CHERRY_LEAVES"
     },
     "breakSound": {
       "value": ""
@@ -116,7 +120,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "IRON",
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "sensitiveToVibration": false,
     "vibrationalEvents": [],

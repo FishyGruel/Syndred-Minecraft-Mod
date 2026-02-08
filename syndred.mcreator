@@ -905,6 +905,314 @@
         ]
       },
       "path": "~/Procedures/GUIs/Anima Conflux/Take"
+    },
+    {
+      "name": "SoulshireLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/block/SoulshireLogBlock.java",
+          "src/main/resources/assets/syndred/models/block/soulshire_log.json",
+          "src/main/resources/assets/syndred/items/soulshire_log.json",
+          "src/main/resources/assets/syndred/models/item/soulshire_log.json",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_log.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_log.json"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulshireLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/soulshire_leaves.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_leaves.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_leaves.json",
+          "src/main/resources/assets/syndred/items/soulshire_leaves.json",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_leaves.json",
+          "src/main/java/net/mcreator/syndred/block/SoulshireLeavesBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulshireSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/block/soulshire_sapling.json",
+          "src/main/java/net/mcreator/syndred/block/SoulshireSaplingBlock.java",
+          "src/main/resources/assets/syndred/items/soulshire_sapling.json",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_sapling.json",
+          "src/main/resources/assets/syndred/models/item/soulshire_sapling.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_sapling.json"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulshireVines",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_vines",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/soulshire_vines.json",
+          "src/main/resources/assets/syndred/items/soulshire_vines.json",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_vines.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_vines.json",
+          "src/main/java/net/mcreator/syndred/block/SoulshireVinesBlock.java",
+          "src/main/resources/assets/syndred/models/block/soulshire_vines.json"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulshireVinesEnd",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_vines_end",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/soulshire_vines_end.json",
+          "src/main/resources/assets/syndred/items/soulshire_vines_end.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_vines_end.json",
+          "src/main/java/net/mcreator/syndred/block/SoulshireVinesEndBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_vines_end.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_vines_end.json"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulshireVinesFruiting",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_vines_fruiting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/block/SoulshireVinesFruitingBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_vines_fruiting.json",
+          "src/main/resources/assets/syndred/items/soulshire_vines_fruiting.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_vines_fruiting.json",
+          "src/main/resources/assets/syndred/models/item/soulshire_vines_fruiting.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_vines_fruiting.json"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulshireVinesEndFruiting",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_vines_end_fruiting",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/block/soulshire_vines_end_fruiting.json",
+          "src/main/resources/assets/syndred/models/item/soulshire_vines_end_fruiting.json",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_vines_end_fruiting.json",
+          "src/main/java/net/mcreator/syndred/block/SoulshireVinesEndFruitingBlock.java",
+          "src/main/resources/assets/syndred/items/soulshire_vines_end_fruiting.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_vines_end_fruiting.json"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulshireVinesOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_vines_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/syndred/procedures/SoulshireVinesOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulShireFruit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_shire_fruit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/items/soul_shire_fruit.json",
+          "src/main/java/net/mcreator/syndred/item/SoulShireFruitItem.java",
+          "src/main/resources/assets/syndred/models/item/soul_shire_fruit.json"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulShireFruitRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_shire_fruit_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/syndred/procedures/SoulShireFruitRightclickedOnBlockProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulshireVinesFruitingOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_vines_fruiting_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/syndred/procedures/SoulshireVinesFruitingOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulshireWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/block/SoulshireWoodBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_wood.json",
+          "src/main/resources/assets/syndred/items/soulshire_wood.json",
+          "src/main/resources/assets/syndred/models/block/soulshire_wood.json",
+          "src/main/resources/assets/syndred/models/item/soulshire_wood.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_wood.json"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "StrippedSoulshireLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_soulshire_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/block/StrippedSoulshireLogBlock.java",
+          "src/main/resources/assets/syndred/blockstates/stripped_soulshire_log.json",
+          "src/main/resources/assets/syndred/items/stripped_soulshire_log.json",
+          "src/main/resources/data/syndred/loot_table/blocks/stripped_soulshire_log.json",
+          "src/main/resources/assets/syndred/models/block/stripped_soulshire_log.json",
+          "src/main/resources/assets/syndred/models/item/stripped_soulshire_log.json"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "StrippedSoulshireWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_soulshire_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/stripped_soulshire_wood.json",
+          "src/main/resources/assets/syndred/blockstates/stripped_soulshire_wood.json",
+          "src/main/resources/assets/syndred/models/block/stripped_soulshire_wood.json",
+          "src/main/resources/data/syndred/loot_table/blocks/stripped_soulshire_wood.json",
+          "src/main/resources/assets/syndred/items/stripped_soulshire_wood.json",
+          "src/main/java/net/mcreator/syndred/block/StrippedSoulshireWoodBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulshireTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_tree",
+      "metadata": {
+        "has_nbt_structure": true,
+        "files": [
+          "src/main/resources/data/syndred/worldgen/placed_feature/soulshire_tree.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/soulshire_tree_biome_modifier.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/soulshire_tree.json"
+        ]
+      },
+      "path": "~/FeaturesAndStructures"
     }
   ],
   "variable_elements": [],
@@ -928,6 +1236,10 @@
       "~CUSTOM:RawSoulsteelBlock"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:StrippedSoulshireWood",
+      "~CUSTOM:StrippedSoulshireLog",
+      "~CUSTOM:SoulshireWood",
+      "~CUSTOM:SoulshireLog",
       "~CUSTOM:AnimaConflux"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
@@ -969,6 +1281,34 @@
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:SoulsteelHoe"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:SoulshireLog"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:SoulshireLeaves"
+    ],
+    "BLOCKS:minecraft:saplings": [
+      "~CUSTOM:SoulshireSapling"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:SoulshireVinesEndFruiting",
+      "~CUSTOM:SoulshireVinesFruiting",
+      "~CUSTOM:SoulshireVinesEnd",
+      "~CUSTOM:SoulshireVines"
+    ],
+    "BLOCKS:minecraft:climbable": [
+      "~CUSTOM:SoulshireVinesEndFruiting",
+      "~CUSTOM:SoulshireVinesFruiting",
+      "~CUSTOM:SoulshireVinesEnd",
+      "~CUSTOM:SoulshireVines"
+    ],
+    "BIOMES:minecraft:is_overworld": [],
+    "BLOCKS:mod:soulshire_vine": [
+      "CUSTOM:SoulshireVines",
+      "CUSTOM:SoulshireVinesEnd",
+      "CUSTOM:SoulshireVinesFruiting",
+      "CUSTOM:SoulshireVinesEndFruiting"
     ]
   },
   "tab_element_order": {},
@@ -1005,11 +1345,24 @@
       "entity.syndred.charger": "Charger",
       "item.syndred.charger_spawn_egg": "Charger Spawn Egg",
       "item.syndred.horn_lance": "Horn Lance",
-      "item.syndred.egg_incubator": "Egg Incubator"
+      "item.syndred.egg_incubator": "Egg Incubator",
+      "item.syndred.soulshire_log": "Soulshire Log",
+      "item.syndred.soulshire_leaves": "Soulshire Leaves",
+      "item.syndred.soulshire_sapling": "Soulshire Sapling",
+      "item.syndred.soulshire_vines": "Soulshire Vines",
+      "item.syndred.soulshire_vines_end": "Soulshire Vines",
+      "item.syndred.soulshire_vines_fruiting": "Soulshire Vines",
+      "item.syndred.soulshire_vines_end_fruiting": "Soulshire Vines",
+      "item.syndred.soul_shire_fruit": "Soul Shire Fruit",
+      "item.syndred.soulshire_wood": "Soulshire Wood",
+      "item.syndred.stripped_soulshire_log": "Stripped Soulshire Log",
+      "item.syndred.stripped_soulshire_wood": "Stripped Soulshire Wood"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/syndred/world/features/configurations/StructureFeatureConfiguration.java",
+      "src/main/java/net/mcreator/syndred/world/features/StructureFeature.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModScreens.java",
       "src/main/java/net/mcreator/syndred/network/MenuStateUpdateMessage.java",
@@ -1029,6 +1382,7 @@
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/syndred/SyndredMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/syndred/init/SyndredModModels.java"
     ]
   },
@@ -1070,6 +1424,10 @@
           },
           {
             "name": "Block Versions",
+            "children": []
+          },
+          {
+            "name": "Natural",
             "children": []
           }
         ]
@@ -1162,6 +1520,10 @@
       },
       {
         "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "FeaturesAndStructures",
         "children": []
       }
     ]

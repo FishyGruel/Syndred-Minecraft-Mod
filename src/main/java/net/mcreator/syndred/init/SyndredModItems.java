@@ -44,6 +44,17 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> CHARGER_SPAWN_EGG;
 	public static final DeferredItem<Item> HORN_LANCE;
 	public static final DeferredItem<Item> EGG_INCUBATOR;
+	public static final DeferredItem<Item> SOULSHIRE_LOG;
+	public static final DeferredItem<Item> SOULSHIRE_LEAVES;
+	public static final DeferredItem<Item> SOULSHIRE_SAPLING;
+	public static final DeferredItem<Item> SOULSHIRE_VINES;
+	public static final DeferredItem<Item> SOULSHIRE_VINES_END;
+	public static final DeferredItem<Item> SOULSHIRE_VINES_FRUITING;
+	public static final DeferredItem<Item> SOULSHIRE_VINES_END_FRUITING;
+	public static final DeferredItem<Item> SOUL_SHIRE_FRUIT;
+	public static final DeferredItem<Item> SOULSHIRE_WOOD;
+	public static final DeferredItem<Item> STRIPPED_SOULSHIRE_LOG;
+	public static final DeferredItem<Item> STRIPPED_SOULSHIRE_WOOD;
 	static {
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
@@ -70,6 +81,17 @@ public class SyndredModItems {
 		CHARGER_SPAWN_EGG = register("charger_spawn_egg", properties -> new SpawnEggItem(SyndredModEntities.CHARGER.get(), properties));
 		HORN_LANCE = register("horn_lance", HornLanceItem::new);
 		EGG_INCUBATOR = block(SyndredModBlocks.EGG_INCUBATOR);
+		SOULSHIRE_LOG = block(SyndredModBlocks.SOULSHIRE_LOG);
+		SOULSHIRE_LEAVES = block(SyndredModBlocks.SOULSHIRE_LEAVES);
+		SOULSHIRE_SAPLING = block(SyndredModBlocks.SOULSHIRE_SAPLING);
+		SOULSHIRE_VINES = block(SyndredModBlocks.SOULSHIRE_VINES);
+		SOULSHIRE_VINES_END = block(SyndredModBlocks.SOULSHIRE_VINES_END);
+		SOULSHIRE_VINES_FRUITING = block(SyndredModBlocks.SOULSHIRE_VINES_FRUITING);
+		SOULSHIRE_VINES_END_FRUITING = block(SyndredModBlocks.SOULSHIRE_VINES_END_FRUITING);
+		SOUL_SHIRE_FRUIT = register("soul_shire_fruit", SoulShireFruitItem::new);
+		SOULSHIRE_WOOD = block(SyndredModBlocks.SOULSHIRE_WOOD);
+		STRIPPED_SOULSHIRE_LOG = block(SyndredModBlocks.STRIPPED_SOULSHIRE_LOG);
+		STRIPPED_SOULSHIRE_WOOD = block(SyndredModBlocks.STRIPPED_SOULSHIRE_WOOD);
 	}
 
 	// Start of user code block custom items
