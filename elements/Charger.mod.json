@@ -40,6 +40,9 @@
     "creativeTabs": [
       {
         "value": "MISC"
+      },
+      {
+        "value": "CUSTOM:SyndredTab"
       }
     ],
     "isBoss": false,
@@ -140,7 +143,11 @@
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SoulshireForest"
+      }
+    ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [
       4,

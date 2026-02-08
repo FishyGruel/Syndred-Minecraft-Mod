@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "syndred:leather_soulsteel"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "syndred:leather_soulsteel"
+      }
+    ]
+  }
+}
