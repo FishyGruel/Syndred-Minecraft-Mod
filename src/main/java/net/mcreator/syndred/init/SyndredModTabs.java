@@ -49,7 +49,10 @@ public class SyndredModTabs {
 				tabData.accept(SyndredModBlocks.SOULSHIRE_WOOD.get().asItem());
 				tabData.accept(SyndredModBlocks.STRIPPED_SOULSHIRE_LOG.get().asItem());
 				tabData.accept(SyndredModBlocks.STRIPPED_SOULSHIRE_WOOD.get().asItem());
-				tabData.accept(SyndredModItems.TAMAJUICE.get());
+				tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_HELMET.get());
+				tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_CHESTPLATE.get());
+				tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_LEGGINGS.get());
+				tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_BOOTS.get());
 			}).build());
 
 	@SubscribeEvent
@@ -57,6 +60,10 @@ public class SyndredModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(SyndredModItems.SOULSTEEL_SWORD.get());
 			tabData.accept(SyndredModItems.HORN_LANCE.get());
+			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_HELMET.get());
+			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_CHESTPLATE.get());
+			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_LEGGINGS.get());
+			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(SyndredModItems.SOULSTEEL_PICKAXE.get());
 			tabData.accept(SyndredModItems.SOULSTEEL_AXE.get());
@@ -73,7 +80,6 @@ public class SyndredModTabs {
 			tabData.accept(SyndredModBlocks.STRIPPED_SOULSHIRE_WOOD.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(SyndredModItems.SOUL_SHIRE_FRUIT.get());
-			tabData.accept(SyndredModItems.TAMAJUICE.get());
 		}
 	}
 }

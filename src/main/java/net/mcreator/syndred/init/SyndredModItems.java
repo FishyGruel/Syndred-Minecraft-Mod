@@ -55,7 +55,10 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> SOULSHIRE_WOOD;
 	public static final DeferredItem<Item> STRIPPED_SOULSHIRE_LOG;
 	public static final DeferredItem<Item> STRIPPED_SOULSHIRE_WOOD;
-	public static final DeferredItem<Item> TAMAJUICE;
+	public static final DeferredItem<Item> LEATHER_SOULSTEEL_HELMET;
+	public static final DeferredItem<Item> LEATHER_SOULSTEEL_CHESTPLATE;
+	public static final DeferredItem<Item> LEATHER_SOULSTEEL_LEGGINGS;
+	public static final DeferredItem<Item> LEATHER_SOULSTEEL_BOOTS;
 	static {
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
@@ -93,7 +96,10 @@ public class SyndredModItems {
 		SOULSHIRE_WOOD = block(SyndredModBlocks.SOULSHIRE_WOOD);
 		STRIPPED_SOULSHIRE_LOG = block(SyndredModBlocks.STRIPPED_SOULSHIRE_LOG);
 		STRIPPED_SOULSHIRE_WOOD = block(SyndredModBlocks.STRIPPED_SOULSHIRE_WOOD);
-		TAMAJUICE = register("tamajuice", TamajuiceItem::new);
+		LEATHER_SOULSTEEL_HELMET = register("leather_soulsteel_helmet", LeatherSoulsteelItem.Helmet::new);
+		LEATHER_SOULSTEEL_CHESTPLATE = register("leather_soulsteel_chestplate", LeatherSoulsteelItem.Chestplate::new);
+		LEATHER_SOULSTEEL_LEGGINGS = register("leather_soulsteel_leggings", LeatherSoulsteelItem.Leggings::new);
+		LEATHER_SOULSTEEL_BOOTS = register("leather_soulsteel_boots", LeatherSoulsteelItem.Boots::new);
 	}
 
 	// Start of user code block custom items
