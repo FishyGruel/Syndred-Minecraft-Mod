@@ -47,6 +47,7 @@ public class EggIncubatorGUIScreen extends AbstractContainerScreen<EggIncubatorG
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/egg_placeholder.png"), this.leftPos + 37, this.topPos + 36, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/rotten_flesh_placeholder.png"), this.leftPos + 17, this.topPos + 28, 0, 0, 16, 16, 16, 16);
 	}
 
 	@Override

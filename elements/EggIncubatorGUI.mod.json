@@ -56,7 +56,7 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 255,
+          "x": 252,
           "y": 72,
           "locked": false
         }
@@ -68,6 +68,16 @@
           "use1Xscale": false,
           "x": 163,
           "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rotten_flesh_placeholder.png",
+          "use1Xscale": false,
+          "x": 143,
+          "y": 65,
           "locked": false
         }
       }
