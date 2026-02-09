@@ -3,48 +3,16 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
-    "foliage_color": -10128384,
-    "grass_color": -4841395,
+    "foliage_color": -16751104,
+    "grass_color": -5043394,
     "sky_color": 7972607,
-    "fog_color": -14920,
+    "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
   "spawners": {
-    "monster": [
-      {
-        "type": "syndred:charger",
-        "weight": 20,
-        "minCount": 1,
-        "maxCount": 4
-      },
-      {
-        "type": "wolf",
-        "weight": 14,
-        "minCount": 1,
-        "maxCount": 4
-      }
-    ],
-    "creature": [
-      {
-        "type": "cat",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 3
-      },
-      {
-        "type": "fox",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 3
-      },
-      {
-        "type": "rabbit",
-        "weight": 11,
-        "minCount": 1,
-        "maxCount": 3
-      }
-    ],
+    "monster": [],
+    "creature": [],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],

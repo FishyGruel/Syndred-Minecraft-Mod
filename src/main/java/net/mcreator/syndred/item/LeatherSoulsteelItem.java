@@ -14,7 +14,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import java.util.Map;
 
 public abstract class LeatherSoulsteelItem extends Item {
-	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(250, Map.of(ArmorType.BOOTS, 2, ArmorType.LEGGINGS, 5, ArmorType.CHESTPLATE, 6, ArmorType.HELMET, 2, ArmorType.BODY, 6), 15,
+	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(220, Map.of(ArmorType.BOOTS, 2, ArmorType.LEGGINGS, 5, ArmorType.CHESTPLATE, 6, ArmorType.HELMET, 2, ArmorType.BODY, 6), 15,
 			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 1f, 0f, TagKey.create(Registries.ITEM, ResourceLocation.parse("syndred:leather_soulsteel_repair_items")),
 			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("syndred:leather_soulsteel")));
 

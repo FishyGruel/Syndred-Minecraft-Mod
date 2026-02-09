@@ -13,9 +13,6 @@
     "creativeTabs": [
       {
         "value": "COMBAT"
-      },
-      {
-        "value": "CUSTOM:SyndredTab"
       }
     ],
     "armorTextureFile": "soulsteel",
@@ -87,7 +84,7 @@
     "bootsPiglinNeutral": {
       "fixedValue": false
     },
-    "maxDamage": 250,
+    "maxDamage": 220,
     "damageValueHelmet": 2,
     "damageValueBody": 6,
     "damageValueLeggings": 5,

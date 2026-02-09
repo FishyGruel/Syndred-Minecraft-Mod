@@ -2380,6 +2380,42 @@
         ]
       },
       "path": "~/GUIs"
+    },
+    {
+      "name": "LeatherSoulsteel",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_soulsteel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/items/leather_soulsteel_chestplate.json",
+          "src/main/resources/assets/syndred/models/item/leather_soulsteel_boots.json",
+          "src/main/resources/assets/syndred/items/leather_soulsteel_helmet.json",
+          "src/main/resources/assets/syndred/models/item/leather_soulsteel_helmet.json",
+          "src/main/resources/assets/syndred/equipment/leather_soulsteel.json",
+          "src/main/resources/assets/syndred/items/leather_soulsteel_boots.json",
+          "src/main/java/net/mcreator/syndred/client/renderer/item/LeatherSoulsteelArmor.java",
+          "src/main/resources/assets/syndred/models/item/leather_soulsteel_leggings.json",
+          "src/main/resources/assets/syndred/models/item/leather_soulsteel_chestplate.json",
+          "src/main/java/net/mcreator/syndred/item/LeatherSoulsteelItem.java",
+          "src/main/resources/assets/syndred/items/leather_soulsteel_leggings.json"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "SoulshireForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshire_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/worldgen/biome/soulshire_forest.json"
+        ]
+      },
+      "path": "~/Biomes"
     }
   ],
   "variable_elements": [],
@@ -2548,6 +2584,21 @@
       "~CUSTOM:DryStonebricksSlabs",
       "~CUSTOM:HarshStoneSlabs",
       "~CUSTOM:DryStoneSlab"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:LeatherSoulsteel.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:LeatherSoulsteel.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:LeatherSoulsteel.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:LeatherSoulsteel.boots"
+    ],
+    "ITEMS:syndred:leather_soulsteel_repair_items": [
+      "~CUSTOM:SoulsteelIngot"
     ]
   },
   "tab_element_order": {},
@@ -2626,11 +2677,18 @@
       "item.syndred.harsh_stone_brickwall": "Harsh Stone Brick Wall",
       "item.syndred.harsh_stone_polished_stairs": "Polished Harsh Stone Stairs",
       "item.syndred.harsh_stone_polished_wall": "Polished Harsh Stone Wall",
-      "item.syndred.harsh_stone_polished_slab": "Polished Harsh Stone Slab"
+      "item.syndred.harsh_stone_polished_slab": "Polished Harsh Stone Slab",
+      "item.syndred.leather_soulsteel_boots": "Leather Soulsteel Boots",
+      "item.syndred.leather_soulsteel_leggings": "Leather Soulsteel Leggings",
+      "item.syndred.leather_soulsteel_chestplate": "Leather Soulsteel Chestplate",
+      "item.syndred.leather_soulsteel_helmet": "Leather Soulsteel Helmet",
+      "biome.syndred.soulshire_forest": "Soulshire Forest"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/syndred/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModBiomes.java",
       "src/main/java/net/mcreator/syndred/world/features/StructureFeature.java",
       "src/main/java/net/mcreator/syndred/world/features/configurations/StructureFeatureConfiguration.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
@@ -2651,6 +2709,7 @@
       "src/main/java/net/mcreator/syndred/init/SyndredModModels.java",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/syndred/SyndredMod.java",
+      "src/main/resources/syndred.mixins.json",
       "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java"
     ]
   },
@@ -2841,6 +2900,14 @@
       },
       {
         "name": "FeaturesAndStructures",
+        "children": []
+      },
+      {
+        "name": "Armors",
+        "children": []
+      },
+      {
+        "name": "Biomes",
         "children": []
       }
     ]

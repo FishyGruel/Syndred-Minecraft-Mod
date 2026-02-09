@@ -92,6 +92,10 @@ public class SyndredModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(SyndredModItems.SOULSTEEL_SWORD.get());
 			tabData.accept(SyndredModItems.HORN_LANCE.get());
+			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_HELMET.get());
+			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_CHESTPLATE.get());
+			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_LEGGINGS.get());
+			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(SyndredModItems.SOULSTEEL_PICKAXE.get());
 			tabData.accept(SyndredModItems.SOULSTEEL_AXE.get());
