@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "syndred:scarlet_blossom",
+    "b": "syndred:echo_dust"
+  },
+  "result": {
+    "id": "syndred:soulsteel_shard",
+    "count": 2
+  }
+}

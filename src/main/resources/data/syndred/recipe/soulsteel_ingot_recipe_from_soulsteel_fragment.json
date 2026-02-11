@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "aca",
+    "baa"
+  ],
+  "key": {
+    "a": "syndred:soulsteel_shard",
+    "b": "minecraft:diamond",
+    "c": "syndred:echo_dust"
+  },
+  "result": {
+    "id": "syndred:soulsteel_ingot",
+    "count": 1
+  }
+}

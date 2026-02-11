@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "syndred:soulsteel_spade"
+    "syndred:soulsteel_shovel",
+    "syndred:midnight_shovel"
   ]
 }

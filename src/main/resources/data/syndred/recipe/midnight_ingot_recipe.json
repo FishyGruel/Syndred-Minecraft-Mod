@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:lapis_lazuli",
+    "b": "minecraft:gold_nugget",
+    "c": "minecraft:lapis_block"
+  },
+  "result": {
+    "id": "syndred:midnight_ingot",
+    "count": 1
+  }
+}
