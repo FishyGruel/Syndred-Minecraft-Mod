@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.SoundType;
 
 public class SoulshireTrapdoorBlock extends TrapDoorBlock {
 	public SoulshireTrapdoorBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).instrument(NoteBlockInstrument.COW_BELL));
+		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.COW_BELL));
 	}
 
 	@Override

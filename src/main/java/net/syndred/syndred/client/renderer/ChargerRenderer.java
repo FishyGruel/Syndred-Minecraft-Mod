@@ -12,7 +12,7 @@ public class ChargerRenderer extends MobRenderer<ChargerEntity, LivingEntityRend
 	private ChargerEntity entity = null;
 
 	public ChargerRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelcharger(context.bakeLayer(Modelcharger.LAYER_LOCATION)), 0.7f);
+		super(context, new Modelcharger(context.bakeLayer(Modelcharger.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

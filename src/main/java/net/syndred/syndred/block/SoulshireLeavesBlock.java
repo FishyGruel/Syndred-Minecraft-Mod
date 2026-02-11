@@ -12,8 +12,8 @@ import net.minecraft.core.BlockPos;
 
 public class SoulshireLeavesBlock extends TintedParticleLeavesBlock {
 	public SoulshireLeavesBlock(BlockBehaviour.Properties properties) {
-		super(0f, properties.mapColor(MapColor.COLOR_RED).sound(SoundType.CHERRY_LEAVES).strength(0.2f).noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false).ignitedByLava().isSuffocating((bs, br, bp) -> false)
-				.isViewBlocking((bs, br, bp) -> false));
+		super(0f, properties.mapColor(MapColor.COLOR_RED).sound(SoundType.CHERRY_LEAVES).strength(0.2f).requiresCorrectToolForDrops().noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false).ignitedByLava()
+				.isSuffocating((bs, br, bp) -> false).isViewBlocking((bs, br, bp) -> false));
 	}
 
 	@Override

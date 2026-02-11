@@ -104,6 +104,7 @@ public class SyndredModTabs {
 				tabData.accept(SyndredModBlocks.SOULSHIRE_FENCE_GATE.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSHIRE_FENCE.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSHIRE_TRAPDOOR.get().asItem());
+				tabData.accept(SyndredModBlocks.SOULSHIRE_PLANKS.get().asItem());
 			}).build());
 
 	@SubscribeEvent

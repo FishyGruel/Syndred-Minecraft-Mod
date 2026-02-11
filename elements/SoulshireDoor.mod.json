@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "",
+    "itemTexture": "soulshire_door",
     "particleTexture": "",
     "blockBase": "Door",
     "blockSetType": "OAK",
@@ -24,9 +24,9 @@
     },
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -40,7 +40,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Soulshire Stairs",
+    "name": "Soulshire Door",
     "specialInformation": {
       "fixedValue": []
     },

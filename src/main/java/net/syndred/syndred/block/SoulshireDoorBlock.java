@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.DoorBlock;
 
 public class SoulshireDoorBlock extends DoorBlock {
 	public SoulshireDoorBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).instrument(NoteBlockInstrument.COW_BELL));
+		super(BlockSetType.OAK, properties.sound(SoundType.WOOD).strength(2f, 3f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.COW_BELL));
 	}
 
 	@Override
