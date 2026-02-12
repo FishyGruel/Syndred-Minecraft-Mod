@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "syndred:midnight_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "syndred:midnight_armor"
+      }
+    ]
+  }
+}

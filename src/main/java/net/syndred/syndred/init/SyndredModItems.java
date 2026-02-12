@@ -108,6 +108,10 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> SOULSHIRE_FENCE;
 	public static final DeferredItem<Item> SOULSHIRE_TRAPDOOR;
 	public static final DeferredItem<Item> SOULSHIRE_PLANKS;
+	public static final DeferredItem<Item> MIDNIGHT_ARMOR_HELMET;
+	public static final DeferredItem<Item> MIDNIGHT_ARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> MIDNIGHT_ARMOR_LEGGINGS;
+	public static final DeferredItem<Item> MIDNIGHT_ARMOR_BOOTS;
 	static {
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
@@ -197,6 +201,10 @@ public class SyndredModItems {
 		SOULSHIRE_FENCE = block(SyndredModBlocks.SOULSHIRE_FENCE);
 		SOULSHIRE_TRAPDOOR = block(SyndredModBlocks.SOULSHIRE_TRAPDOOR);
 		SOULSHIRE_PLANKS = block(SyndredModBlocks.SOULSHIRE_PLANKS);
+		MIDNIGHT_ARMOR_HELMET = register("midnight_armor_helmet", MidnightArmorItem.Helmet::new);
+		MIDNIGHT_ARMOR_CHESTPLATE = register("midnight_armor_chestplate", MidnightArmorItem.Chestplate::new);
+		MIDNIGHT_ARMOR_LEGGINGS = register("midnight_armor_leggings", MidnightArmorItem.Leggings::new);
+		MIDNIGHT_ARMOR_BOOTS = register("midnight_armor_boots", MidnightArmorItem.Boots::new);
 	}
 
 	// Start of user code block custom items

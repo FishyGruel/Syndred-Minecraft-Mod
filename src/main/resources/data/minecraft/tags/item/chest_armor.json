@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "syndred:leather_soulsteel_chestplate"
+    "syndred:leather_soulsteel_chestplate",
+    "syndred:midnight_armor_chestplate"
   ]
 }

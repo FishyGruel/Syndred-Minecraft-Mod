@@ -2916,6 +2916,85 @@
           "src/main/resources/data/syndred/loot_table/blocks/soulshire_leaves.json"
         ]
       }
+    },
+    {
+      "name": "MidnightArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/midnight_armor_chestplate.json",
+          "src/main/resources/assets/syndred/models/item/midnight_armor_leggings.json",
+          "src/main/resources/assets/syndred/items/midnight_armor_helmet.json",
+          "src/main/resources/assets/syndred/items/midnight_armor_leggings.json",
+          "src/main/resources/assets/syndred/items/midnight_armor_chestplate.json",
+          "src/main/resources/assets/syndred/models/item/midnight_armor_boots.json",
+          "src/main/resources/assets/syndred/items/midnight_armor_boots.json",
+          "src/main/java/net/syndred/syndred/item/MidnightArmorItem.java",
+          "src/main/resources/assets/syndred/models/item/midnight_armor_helmet.json",
+          "src/main/resources/assets/syndred/equipment/midnight_armor.json",
+          "src/main/java/net/syndred/syndred/client/renderer/item/MidnightArmorArmor.java"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "MidnightArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/midnight_armor_helmet_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/midnight_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "MidnightArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/midnight_armor_chestplate_recipe.json",
+          "src/main/resources/data/syndred/advancement/recipes/midnight_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "MidnightArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/midnight_armor_leggings_recipe.json",
+          "src/main/resources/data/syndred/recipe/midnight_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "MidnightArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/midnight_armor_boots_recipe.json",
+          "src/main/resources/data/syndred/recipe/midnight_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Armors"
     }
   ],
   "variable_elements": [],
@@ -3099,15 +3178,19 @@
       "~CUSTOM:DryStoneSlab"
     ],
     "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:MidnightArmor.helmet",
       "~CUSTOM:LeatherSoulsteel.helmet"
     ],
     "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:MidnightArmor.body",
       "~CUSTOM:LeatherSoulsteel.body"
     ],
     "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:MidnightArmor.legs",
       "~CUSTOM:LeatherSoulsteel.legs"
     ],
     "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:MidnightArmor.boots",
       "~CUSTOM:LeatherSoulsteel.boots"
     ],
     "ITEMS:syndred:leather_soulsteel_repair_items": [
@@ -3148,6 +3231,9 @@
     ],
     "BLOCKS:minecraft:wooden_fences": [
       "~CUSTOM:SoulshireFence"
+    ],
+    "ITEMS:syndred:midnight_armor_repair_items": [
+      "~CUSTOM:MidnightIngot"
     ]
   },
   "tab_element_order": {},
@@ -3248,7 +3334,11 @@
       "item.syndred.soulshire_fence_gate": "Soulshire Fence",
       "item.syndred.soulshire_fence": "Soulshire Fence Gate",
       "item.syndred.soulshire_trapdoor": "Soulshire Trapdoor",
-      "item.syndred.soulshire_planks": "Soulshire Planks"
+      "item.syndred.soulshire_planks": "Soulshire Planks",
+      "item.syndred.midnight_armor_leggings": "Midnight Leggings",
+      "item.syndred.midnight_armor_boots": "Midnight Boots",
+      "item.syndred.midnight_armor_helmet": "Midnight Helmet",
+      "item.syndred.midnight_armor_chestplate": "Midnight Chestplate"
     }
   },
   "metadata": {

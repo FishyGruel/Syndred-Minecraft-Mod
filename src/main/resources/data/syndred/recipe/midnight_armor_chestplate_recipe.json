@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "syndred:midnight_ingot"
+  },
+  "result": {
+    "id": "syndred:midnight_armor_chestplate",
+    "count": 1
+  }
+}
